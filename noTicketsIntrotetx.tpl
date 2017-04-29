@@ -1,4 +1,5 @@
-//Запрет Tickets заполнять introtext
+// Запрет Tickets заполнять introtext
+
 <?php
 if ($modx->event->name == "OnDocFormSave") {
     if ($resource->class_key != 'Ticket') return;
